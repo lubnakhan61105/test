@@ -29,5 +29,5 @@ jobs:
         node-version: 12
     - name: Install Surge
       run: npm install -g surge
-    - name: run Surge
+    - name: run surge
       run: surge ./ lubnakhanbootcamp.surge.sh --token ${{secrets.token}}    
