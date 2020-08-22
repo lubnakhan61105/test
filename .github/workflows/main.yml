@@ -30,4 +30,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: run Surge
-      run: suge ./ lubnakhanbootcamp.surge.sh --token ${{secret.token}}    
+      run: suge ./ lubnakhanbootcamp.surge.sh --token ${{secrets.token}}    
